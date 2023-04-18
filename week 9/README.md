@@ -3,5 +3,5 @@ The attached [Distances.xlsx](https://lcms-files.mathworks.com/content/file/348f
 Write a function called **get_distance** that accepts two character vector inputs representing the names of two cities. The function returns the distance between them as an output argument called **distance**. For example, the call **get_distance('Seattle, WA','Miami, FL')** should return 3723. If one or both of the specified cities are not in the file, the function returns -1.<br/>
 Your function should load the data only once. File I/O is a time consuming operation. Loading the data multiple times is will likely cause a time-out error when submitting your function.
 Preview of the first five cities of *Distances.xlsx* 
-![image](https://drive.google.com/file/d/1ayq0VAe6wInU3GXFVtv4hsZ70b_8nzPK/view?usp=share_link)
 
+![7f056535-7c1c-449f-a957-f99797e79b7a](https://user-images.githubusercontent.com/120184831/232873833-aa43a01d-3aa2-4d68-94b2-7ee81ed0a23e.png)
