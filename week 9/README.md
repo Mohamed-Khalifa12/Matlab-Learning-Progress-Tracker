@@ -5,3 +5,15 @@ Your function should load the data only once. File I/O is a time consuming opera
 Preview of the first five cities of *Distances.xlsx* 
 
 ![7f056535-7c1c-449f-a957-f99797e79b7a](https://user-images.githubusercontent.com/120184831/232873833-aa43a01d-3aa2-4d68-94b2-7ee81ed0a23e.png)
+
+
+# Text File I/O
+Write a function called **char_counter** that counts the number of a certain character in a text file. The function takes two input arguments, **fname**, a char vector of the filename and **character**, the char it counts in the file. The function returns **charnum**, the number of characters found. If the file is not found or **character** is not a valid char, the function return -1. As an example, consider the following run. The file "simple.txt" contains a single line: "This file should have exactly three a-s..."
+```
+charnum = char_counter('simple.txt','a')
+charnum = 
+   3
+```
+
+# Saddle Points
+Write a function called saddle that finds **saddle** points in the input matrix **M**. For the purposes of this problem, a saddle point is defined as an element whose value is greater than or equal to every element in its row, and less than or equal to every element in its column. Note that there may be more than one saddle point in **M**. Return a matrix called **indices** that has exactly two columns. Each row of indices corresponds to one saddle point with the first element of the row containing the row index of the saddle point and the second element containing the column index. If there is no saddle point in **M**, then **indices** is the empty array.
